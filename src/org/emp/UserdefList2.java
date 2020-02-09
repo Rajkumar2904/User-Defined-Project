@@ -18,6 +18,7 @@ int salary;
     System.out.print("Enter the Salary: ");
     in.nextInt();
     in.close();
+    System.out.println("He Pinged me Enjoy Panra da");
 	}
 	public static void main(String[] args) {
 		UserdefList2 u=new UserdefList2();
