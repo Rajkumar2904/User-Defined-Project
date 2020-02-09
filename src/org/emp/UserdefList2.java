@@ -17,7 +17,8 @@ int salary;
     in.nextLong();
     System.out.print("Enter the Salary: ");
     in.nextInt();
-}
+    in.close();
+	}
 	public static void main(String[] args) {
 		UserdefList2 u=new UserdefList2();
 		for (int i = 0; i < 3; i++) {
